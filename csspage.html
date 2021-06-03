@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talha-CSS</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div id="div1">
+       <center> <h1>CSS: Cascading Style Sheets</h1></center>
+    </div>
+    <div id="div2">
+        <p> <strong>Cascading Style Sheets (CSS)</strong> is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media. </p>
+
+        <p> CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications. Previously, development of various parts of CSS specification was done synchronously, which allowed versioning of the latest recommendations. You might have heard about <em>CSS1, CSS2.1, CSS3</em>. However, CSS4 has never become an official version.</p>
+            
+        <p> From CSS3, the scope of the specification increased significantly and the progress on different CSS modules started to differ so much, that it became more effective to develop and release recommendations separately per module. Instead of versioning the CSS specification, W3C now periodically takes a snapshot of the latest stable state of the CSS specification.</p>
+        <p>HTML was NEVER intended to contain tags for formatting a web page!
+            HTML was created to describe the content of a web page, like:
+            <br>
+            &lt;h1&gt;This is a heading&lt;/h1&gt;
+            <br>
+            &lt;p&gt;This is a paragraph.&lt;/p&gt;
+            <br>
+            When tags like &lt;font&gt;, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process. To solve this problem, the World Wide Web Consortium (W3C) created CSS. CSS removed the style formatting from the HTML page!</p>
+    </div>
+    <div class="using">
+        <center> <h1>Using CSS</h1></center>
+     </div>
+     <div id="div3">
+         <p>CSS can be added to HTML documents in 3 ways:</p>
+         <ul>
+             <li>Inline - by using the style attribute inside HTML elements</li>
+             <li>Internal - by using a &lt;style&gt; element in the &lt;head&gt; section </li>
+             <li>External - by using a &lt;link&gt; element to link to an external CSS file</li>
+         </ul>
+     </div>
+     <div id="inline">
+        <center> <h2>Inline CSS</h2></center>
+     </div>
+     <div id="div3">
+         <p>An inline CSS is used to apply a unique style to a single HTML element.
+            An inline CSS uses the style attribute of an HTML element. For Example:</p>
+            <strong><p id="color">&lt;h1 style="color:blue;">A Blue Heading&lt;/h1&gt;
+                <p id="color">&lt;p style="color:red;">A red paragraph.&lt;/p&gt;</p></strong></p>
+            </div>
+     <div id="inline">
+            <center> <h2>Internal CSS</h2></center>
+    </div>
+    <div id="div3">
+        <p>An internal CSS is used to define a style for a single HTML page.
+            An internal CSS is defined in the &lt;head&gt; section of an HTML page, within a &lt;style&gt; element.
+           </p>
+    </div>
+    <div id="inline">
+        <center> <h2>External CSS</h2></center>
+    </div>
+    <div id="div3">
+        <p>An external style sheet is used to define the style for many HTML pages.
+            To use an external style sheet, add a link to it in the &lt;head&gt; section of each HTML page</p>
+    </div>
+    <hr>
+    <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/OmRDI3S5y4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+    <hr>
+    <div id="inline">
+        <center> <h2>CSS Colors and Sizes</h2></center>
+    </div>
+    <div id="div3">
+        <p>Here, we will demonstrate some commonly used CSS properties. You will learn more about them later.
+            <br>
+            The CSS color property defines the text color to be used.
+            <br>
+            The CSS font-size property defines the text size to be used.</p>
+    </div>
+    <div id="inline">
+        <center> <h2>CSS Border</h2></center>
+    </div>
+    <div id="div3">
+        <p>The CSS border property defines a border around an HTML element.
+            <br>
+            <strong>Tip:</strong> You can define a border for nearly all HTML elements.</p>
+        <hr>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Ih3PR8qPqRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        <hr>
+    </div>
+    <div id="inline">
+        <center> <h2>CSS Padding and Margening</h2></center>
+    </div>
+    <div id="div3">
+        <p>The CSS padding property defines a padding (space) between the text and the border.</p>
+        <p>The CSS margin property defines a margin (space) outside the border.</p>
+    </div>
+    <hr>
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/NZEz4yNITd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+    <hr>
+    <div id="inline">
+        <center> <h2>Link to external CSS</h2></center>
+    </div>
+    <div id="div3">
+        <p>External style sheets can be referenced with a full URL or with a path relative to the current web page<p>
+    </div>
+    <div id="inline">
+        <center> <h2>CSS Box Model</h2></center>
+    </div>
+    <div id="div3">
+        <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.</p>
+        <p><ul>
+            <li>Content - The content of the box, where text and images appear</li>
+            <li>  Padding - Clears an area around the content. The padding is transparent</li>
+            <li>  Border - A border that goes around the padding and content</li>
+            <li>  Margin - Clears an area outside the border. The margin is transparent</li>
+        </ul></p>
+        <hr>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/eAXkpMJ1w1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        <hr>
+    </div>
+    <div id="inline">
+        <center> <h2>CSS Fonts</h2></center>
+    </div>
+    <div id="div3">
+        <p >Choosing the right font has a huge impact on how the readers experience a website.
+            The right font can create a strong identity for your brand. Using a font that is easy to read is important. The font adds value to your text. It is also important to choose the correct color and text size for the font.</p>
+        <p>
+            <ol>
+                <li>Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.</li>
+                <li>Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.</li>
+                <li>  Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. </li>
+                <li>  Cursive fonts imitate human handwriting.</li>
+            </ol>
+            <p>Fantasy fonts are decorative/playful fonts. For example</p> 
+            <p id="color">.p1 {
+                font-family: "Times New Roman", Times, serif;
+              }</p>
+        </p>
+    </div>
+    <hr>
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/MzTOXgrwVwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+    <hr>
+</body>
+</html>

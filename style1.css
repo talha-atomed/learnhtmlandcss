@@ -1,0 +1,54 @@
+@font-face {
+    font-family: poppin;
+    src: url(fonts/Poppins-Medium.otf);
+}
+body{
+    background-image: url(csspic.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+#div1{
+    border: 7px;
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+    font-family: poppin;
+}
+#div2{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: poppin;
+}
+.using{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+    font-family: poppin;
+}
+#inline{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+    font-family: poppin;
+}
+#div3{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: poppin;
+}
+#color{
+    color: white;
+}
+.internal{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+    font-family: poppin;
+}
+.external{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+    font-family: poppin;
+}

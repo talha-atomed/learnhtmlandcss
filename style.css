@@ -1,0 +1,116 @@
+@font-face {
+    font-family: poppin;
+    src: url(fonts/Poppins-Medium.otf);
+}
+
+
+body{
+    background-image: url(htmlpic.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+#div1{
+    border: 7px;
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+    font-family: poppin;
+}
+#div2{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: poppin;
+}
+#div3{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: poppin;
+}
+.tags{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+.hr{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+.link{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+.olist{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+.ulist{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+.img{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+.type{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+#link{
+    font-family: poppin;
+    font-size: large;
+}
+.list{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+.attri{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+#color{
+    color: white;
+}
+.attri{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+.srchref{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+.handw{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+.alt{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+.style{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+.lang{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}
+.input{
+    border-color: rgb(11, 12, 11);
+    border-style: solid;
+    background-color: honeydew;
+}

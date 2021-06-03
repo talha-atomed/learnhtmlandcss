@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talha-HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="link">
+        <center><a target="_blank" href="csspage.html">All CSS related introduction can be found here!</a></center>
+    </div>
+    <div id="div1">
+      <center><h1>HTML: HyperText Markup Language</h1></center>
+    </div>
+    <div id="div2">
+          <p><strong>HTML (HyperText Markup Language)</strong> is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+    
+        <p>Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+    
+        <p>An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded by "<" and ">".  The name of an element inside a tag is case insensitive. That is, it can be written in uppercase, lowercase, or a mixture.</p>
+    </div>
+
+    <div id="div3">
+        <center><h1 class="tags">HTML Tags</h1></center>
+        <p>Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. Elements such as header, footer and article are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.</p>
+        <p>The basic elements of an HTML page are:</p>
+        <ul>
+            <li>A text header, denoted using the h1, h2, h3, h4, h5, h6 tags.</li>
+            <li>A paragraph, denoted using the p tag.</li>
+            <li>A horizontal ruler, denoted using the hr tag.</li>
+            <li>A link, denoted using the a (anchor) tag.</li>
+            <li>A list, denoted using the ul (unordered list), ol (ordered list) and li (list element) tags.</li>
+            <li>An image, denoted using the img tag</li>
+            <li>A divider, denoted using the div tag</li>
+            <li>A text span, denoted using the span tag</li>
+        </ul>
+        <br>
+        <center><h2 class="list">Text headers and paragraphs</h2></center>
+        <p>There are six different types of text header you can choose from, h1 being the topmost heading with the largest text, and h6 being the most inner heading with the smallest text. In general, you should have only one h1 tag with a page, since it should be the primary description of the HTML page.
+         As we've seen in the last example, a paragraph is a block of text separated from the rest of the text around it. Let's see an example of the h1, h2 and p tags in action:</p>
+         <hr>
+         <center><iframe width="560" height="315" src="https://www.youtube.com/embed/H519o8BvpQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+         <hr>
+         <br>
+         <center><h2 class="hr">Horizontal rulers</h2></center>
+         <p>A horizontal ruler hr tag acts as a simple separator between page sections.</p>
+         <center><h2 class="link">Links</h2></center>
+         <p>A link ("anchor") is a small span of text that will direct you to a different section in the page, or to a different page. To create a link, you will need to specify where you would like the user to be directed to when the link is clicked by specifying the href attribute.</p>
+        <center> <h2 class="olist">Ordered lists</h2></center>
+         <p>Here is a list of ordered items:</p>
+         <ol>
+             <li>First item</li>
+             <li>Second item</li>
+             <li>Third item</li>
+         </ol></p>
+         <center><h2 class="ulist">Unordered lists</h2></center>
+         <p>Here is a list of unordered items:</p>
+         <ul>
+             <li>First item</li>
+             <li>Second item</li>
+             <li>Third item</li>
+         </ul></p>
+         <hr>
+         <center><iframe width="560" height="315" src="https://www.youtube.com/embed/rVbtLx3gv2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+         <hr>
+         <center><h2 class="img">Images</h2></center>
+         <p>Images in HTML are inline elements that can be placed within a paragraph. To add an image, use the
+        &lt;img&gt; tag along with the src attribute to specify the location of the image.</p>
+        <center><h2 class="type">Image Types</h2></center>
+        <ul>
+            <li>Lossless formats - useful for when you need pixel-perfect graphics, for example for logos. The most common format is PNG. PNG also supports alpha transparency, meaning that you can use any background you want and overlay the image on top of that background.</li>
+            <li>Lossy formats - useful for displaying rich images. Using a lossless format such as PNG would be an order of magnitude larger if used in such images. The most common format used in this category is JPG.</li>
+            <li>Animated formats - useful for showing short animated images. The most common format is GIF, although it is a very old yet widely supported format, with many inherent drawbacks, such as a 256 color limit on each frame, and bad compression.</li>
+        </ul>
+        <hr>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/PBsfsopMbpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        <hr>
+        <center><h2 class="input">Input</h2></center>
+        <p>for example An HTML form with three input fields; two text fields and one submit button:</p>
+        <p >&lt;form action="/action_page.php"&gt;
+            <br>
+            &lt;label for="fname">First name:&lt;/label&gt;
+            <br>
+            &lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;&lt;br&gt;
+            <br>
+            &lt;label for="lname">Last name:&lt;/label&gt;
+            <br>
+            &lt;input type="text" id="lname" name="lname"&gt;&lt;br&gt;&lt;br&gt;
+            <br>
+            &lt;input type="submit" value="Submit"&gt;&lt;/form&gt;
+          </p>
+          <p>Following are the types of input tags</p>
+          <ul>
+              <li>&lt;input type="button"&gt;</li>
+              <li>&lt;input type="checkbox"&gt;</li>
+              <li> &lt;input type="color"&gt;</li>
+              <li>&lt;input type="date"&gt;</li>
+              <li>&lt;input type="datetime-local"&gt;</li>
+              <li>&lt;input type="email"&gt;</li>
+              <li>&lt;input type="file"&gt;</li>
+              <li> &lt;input type="hidden"&gt;</li>
+                <li> &lt;input type="image"&gt;</li>
+                <li>  &lt;input type="month"&gt;</li>
+                <li> &lt;input type="number"&gt;</li>
+                <li> &lt;input type="password"&gt;</li>
+                <li> &lt;input type="radio"&gt;</li>
+                <li> &lt;input type="range"&gt;</li>
+                <li> &lt;input type="reset"&gt;</li>
+                <li> &lt;input type="search"&gt;</li>
+                <li> &lt;input type="submit"&gt;</li>
+                <li> &lt;input type="tel"&gt;</li>
+                <li>&lt;input type="text"&gt; (default value)</li>
+                <li>  &lt;input type="time"&gt;</li>
+                <li> &lt;input type="url"&gt;</li>
+                <li> &lt;input type="week"&gt;</li>
+          </ul>
+          <hr>
+          <center><iframe width="560" height="315" src="https://www.youtube.com/embed/8asQvoFlfPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+          <hr>
+        <center><h1 class="attri">Html Attributes</h1></center>
+        <p>
+            <ul>
+                <li>All HTML elements can have attributes</li>
+                  <li> Attributes provide additional information about elements</li>
+                  <li> Attributes are always specified in the start tag</li>
+                  <li> Attributes usually come in name/value pairs like: name="value"</li>
+            </ul>
+        </p>
+        <center><h2 class="srchref">The Src and Href Attribute</h2></center>
+        <p>The &lt;a&gt; tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:</p>
+        <p id="color">for example: &lt;a href="https://www.w3schools.com">Visit W3Schools&lt;/a&gt;</p>
+        <p>The &lt;img&gt; tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:</p>
+        <p id="color">for example: &lt;img src="img_girl.jpg"&gt;</p>
+        <hr>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/KnPFd9gJIvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        <hr>
+        <p>There are two ways to specify the URL in the src attribute:
+            <ol>
+           <li> 1. Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".</li>
+            <li>Notes: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.</li>
+            <li>2. Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".</li>
+            <p id="color">Tip: It is almost always best to use relative URLs. They will not break if you change domain.</p>
+            <center><h2 class="handw">The width and height Attributes</h2></center>
+            <p>The &lt;img&gt; tag should also contain the width and height attributes, which specifies the width and height of the image (in pixels):</p>
+            <p id="color">Example: &lt;img src="img_girl.jpg" width="500" height="600"&gt;</p>
+            <center><h2 class="alt">The alt Attribute</h2></center>
+            <p>The required alt attribute for the &lt;img&gt; tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to slow connection, or an error in the src attribute, or if the user uses a screen reader.</p>
+            <hr>
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/PW3WIYsSpas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+            <hr>
+            <center><h2 class="style">Style Attribute</h2></center>
+            <p>The style attribute is used to add styles to an element, such as color, font, size, and more.</p>
+            <p id="color">for example: &lt;p style="color:red;">This is a red paragraph.&lt;/p&gt;</p>
+            <center><h2 class="lang">Lang Attribute</h2></center>
+           <p> You should always include the lang attribute inside the &lt;html&gt; tag, to declare the language of the Web page. This is meant to assist search engines and browsers. Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.</p>
+           <hr>
+           <center><iframe width="560" height="315" src="https://www.youtube.com/embed/BAn3GLMXnv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+           <hr>
+    </div>
+    
+</body>
+</html>
